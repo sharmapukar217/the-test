@@ -7,7 +7,7 @@ async function main() {
   });
 
   const page = await browser.newPage();
-  await page.goto('https://web.whatsapp.com');
+  await page.goto('https://instagram.com');
 
   await page.waitForTimeout(10000);
   await page.screenshot({ path: 'screenshot.png' });
